@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "87550721429",
+    "project_id": "cmms-a074d",
+    "storage_bucket": "cmms-a074d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87550721429:android:4eebbd6300ca6a9e354a9c",
+        "android_client_info": {
+          "package_name": "com.example.contractor_mobile_applicatin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87550721429-7eh41h21qbpcnr5u833k8fa4i875fgdf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3NMhoEK0EVgP6WppW9Q7Z23kk0NbVHqY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87550721429-7eh41h21qbpcnr5u833k8fa4i875fgdf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
