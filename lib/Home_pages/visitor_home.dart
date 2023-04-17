@@ -6,10 +6,10 @@ import 'package:flutter/material.dart';
 
 import '../user_profile/user_profile.dart';
 
-class Visitor_Staff_HomePage extends StatelessWidget {
+class Visitor_HomePage extends StatelessWidget {
   final appTitle = 'CMMS';
 
-  const Visitor_Staff_HomePage({super.key});
+  const Visitor_HomePage({super.key});
   void singOut() {
     FirebaseAuth.instance.signOut();
   }
@@ -69,8 +69,7 @@ class drawer extends StatelessWidget {
                 color: Colors.blue,
               ),
               title: const Text('My Profile'),
-              onTap: () =>
-                  Navigator.of(context).pushReplacement(MaterialPageRoute(
+              onTap: () => Navigator.of(context).push(MaterialPageRoute(
                 builder: (context) => UserProfile(),
               )),
             ),
@@ -80,9 +79,8 @@ class drawer extends StatelessWidget {
                 color: Colors.blue,
               ),
               title: const Text('Home Page'),
-              onTap: () =>
-                  Navigator.of(context).pushReplacement(MaterialPageRoute(
-                builder: (context) => const Visitor_Staff_HomePage(),
+              onTap: () => Navigator.of(context).push(MaterialPageRoute(
+                builder: (context) => const Visitor_HomePage(),
               )),
             ),
             ListTile(
@@ -91,8 +89,7 @@ class drawer extends StatelessWidget {
                 color: Colors.blue,
               ),
               title: const Text('Appointment'),
-              onTap: () =>
-                  Navigator.of(context).pushReplacement(MaterialPageRoute(
+              onTap: () => Navigator.of(context).push(MaterialPageRoute(
                 builder: (context) => Appointment(
                   onTap: () {},
                 ),
